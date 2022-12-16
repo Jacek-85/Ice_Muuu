@@ -35,21 +35,21 @@
 }
 
 .products__container:nth-child(1)::before {
-  content: url(../photos/products-ice-1.png);
+  content: url(../images/products/products-ice-1.png);
   position: absolute;
   top: -113px;
   left: 16px;
 }
 
 .products__container:nth-child(2)::before {
-  content: url(../photos/products-ice-2.png);
+  content: url(../images/products/products-ice-2.png);
   position: absolute;
   top: -113px;
   left: 16px;
 }
 
 .products__container:nth-child(3)::before {
-  content: url(../photos/products-ice-3.png);
+  content: url(../images/products/products-ice-3.png);
   position: absolute;
   top: -113px;
   left: 16px;
@@ -71,19 +71,19 @@
     margin: 0;
   }
   .products__container:nth-child(1)::before {
-    content: url(../photos/products-ice-1-tablet.png);
+    content: url(../images/products/products-ice-1-tablet.png);
     left: 0;
     top: -100px;
   }
 
   .products__container:nth-child(2)::before {
-    content: url(../photos/products-ice-2-tablet.png);
+    content: url(../images/products/products-ice-2-tablet.png);
     left: 0;
     top: -107px;
   }
 
   .products__container:nth-child(3)::before {
-    content: url(../photos/products-ice-3-tablet.png);
+    content: url(../images/products/products-ice-3-tablet.png);
     left: 0;
     top: -102px;
   }
@@ -109,19 +109,19 @@
     height: 525px;
   }
   .products__container:nth-child(1)::before {
-    content: url(../photos/products-ice-1-desctop.png);
+    content: url(../images/products/products-ice-1-desctop.png);
     left: -3px;
     top: -210px;
   }
 
   .products__container:nth-child(2)::before {
-    content: url(../photos/products-ice-2-desctop.png);
+    content: url(../images/products/products-ice-2-desctop.png);
     left: -3px;
     top: -210px;
   }
 
   .products__container:nth-child(3)::before {
-    content: url(../photos/products-ice-3-desctop.png);
+    content: url(../images/products/products-ice-3-desctop.png);
     left: -3px;
     top: -210px;
   }
@@ -169,7 +169,7 @@
   margin-bottom: 66px;
 }
 .products__content-header::after {
-  content: url(../svg/dots.svg);
+  content: url(/assets/dots.svg);
   position: absolute;
   bottom: -40px;
   right: 126px;
