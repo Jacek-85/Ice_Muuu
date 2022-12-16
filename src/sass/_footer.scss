@@ -1,0 +1,42 @@
+.footer {
+  background-color: var(--pink_1);
+}
+
+.footer__title-one {
+  color: var(--pink_3);
+  font-family: Titan One;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.16;
+  text-transform: uppercase;
+}
+
+.footer__title-two {
+  color: var(--pink_5);
+  font-family: Titan One;
+  font-size: 34px;
+  font-weight: 400;
+  line-height: 1.15;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.footer__contact {
+  color: var(--black);
+  font-family: DM Sans;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1.83;
+}
+
+.footer__phone {
+  color: var(--pink_5);
+}
+
+.footer__rights {
+  color: var(--grey_1);
+  font-family: DM Sans;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.5;
+}
