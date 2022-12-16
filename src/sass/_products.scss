@@ -7,11 +7,9 @@
 /* ----------------------------------- */
 
 /* ------------ CONTEINERS ----------- */
-.container {
-  margin: 0 20px;
-}
 
 .products__section {
+  margin: 0 20px;
   background-color: #ffffff;
   display: flex;
   flex-direction: column;
@@ -40,6 +38,18 @@
   top: -113px;
   left: 16px;
 }
+
+// -------------------- Problem -----------------//
+
+// @media (min-device-pixel-ratio: 2),
+//   (min-resolution: 192dpi),
+//   (min-resolution: 2dppx) {
+//   .products__container:nth-child(1)::before {
+//     content: url(../images/products/products-ice-1@2x.png);
+//     width: 249px;
+//     height: 252px;
+//   }
+// }
 
 .products__container:nth-child(2)::before {
   content: url(../images/products/products-ice-2.png);
@@ -250,18 +260,19 @@
 
 /* --------------- SVG/IMG ------------- */
 
-.products__svg--arrgow {
+.products__arrow {
+  cursor: pointer;
   margin-top: 30px;
 }
 
 @media screen and (min-width: 768px) {
-  .products__svg--arrgow {
+  .products__arrow {
     margin-top: 40px;
   }
 }
 
 @media screen and (min-width: 1200px) {
-  .products__svg--arrgow {
+  .products__arrow {
     margin-top: 60px;
   }
 }
