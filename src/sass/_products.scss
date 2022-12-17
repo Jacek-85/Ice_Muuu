@@ -101,7 +101,7 @@
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1280px) {
   .products__section {
     margin-top: 127px;
     margin-bottom: 120px;
@@ -221,7 +221,14 @@
   }
 }
 
-@media screen and (min-width: 1200px) {
+
+@media screen and (min-width: 1280px) {
+  .products__content-header::after {
+    bottom: -41px;
+    right: 151px;
+  }
+
+
   .products__span {
     font-size: 30px;
   }
@@ -264,7 +271,7 @@
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1280px) {
   .products__arrow {
     margin-top: 60px;
   }
