@@ -2,6 +2,25 @@
   background-color: var(--pink_1);
 }
 
+@media screen and (min-width: 768px) {
+  .footer__column {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 700px;
+    margin: 0 auto 91px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .footer__column {
+    width: 1050px;
+    margin: 0 auto 97px;
+  }
+}
+
+// ----------------titles----------------
+
 .footer__title {
   font-family: Titan One;
   text-transform: uppercase;
@@ -11,7 +30,21 @@
   margin: 0 auto;
 }
 
+@media screen and (min-width: 768px) {
+  .footer__title {
+    max-width: 340px;
+    margin: 0;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .footer__title {
+    min-width: 475px;
+  }
+}
+
 .footer__title-one {
+  display: block;
   color: var(--pink_3);
   font-size: 18px;
   font-weight: 400;
@@ -20,7 +53,28 @@
   margin-bottom: 17px;
 }
 
+@media screen and (min-width: 768px) {
+  .footer__title-one {
+    font-size: 26px;
+    letter-spacing: 0.04em;
+    margin-bottom: 16px;
+    max-width: 340px;
+    margin-top: 7px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .footer__title-one {
+    font-size: 30px;
+    line-height: 1.13;
+    margin-bottom: 15px;
+    min-width: 475px;
+    margin-top: 0;
+  }
+}
+
 .footer__title-two {
+  display: block;
   color: var(--pink_5);
   font-size: 34px;
   font-weight: 400;
@@ -29,6 +83,24 @@
   max-width: 200px;
 }
 
+@media screen and (min-width: 768px) {
+  .footer__title-two {
+    font-size: 48px;
+    letter-spacing: 0.06em;
+    max-width: 340px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .footer__title-two {
+    font-size: 58px;
+    line-height: 1.14;
+    min-width: 480px;
+  }
+}
+
+// -------------links------------
+
 .footer__links {
   margin: 43px auto;
   max-width: 280px;
@@ -36,11 +108,32 @@
   flex-direction: column;
 }
 
+@media screen and (min-width: 768px) {
+  .footer__links {
+    margin: 0;
+    min-width: 270px;
+  }
+}
+
+// --------------icons------------
+
 .footer__list {
   display: flex;
   gap: 28px;
   list-style-type: none;
   justify-content: flex-end;
+}
+
+@media screen and (min-width: 768px) {
+  .footer__list {
+    gap: 30px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .footer__list {
+    gap: 24px;
+  }
 }
 
 .footer__link {
@@ -57,6 +150,13 @@
   }
 }
 
+@media screen and (min-width: 768px) {
+  .footer__link {
+    width: 34px;
+    height: 34px;
+  }
+}
+
 .footer__icon {
   position: absolute;
   top: 50%;
@@ -64,20 +164,50 @@
   transform: translate(-50%, -50%);
 }
 
+// -----------contact-----------
+
 .footer__contact {
   color: var(--black);
   font-family: DM Sans;
-  font-size: 12px;
+  font-size: 13px;
   font-weight: 700;
-  line-height: 1.83;
-  margin-top: 43px;
+  line-height: 1.86;
+  margin-top: 46px;
   text-align: right;
+}
+
+@media screen and (min-width: 768px) {
+  .footer__contact {
+    font-size: 14px;
+    white-space: nowrap;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .footer__contact {
+    font-size: 16px;
+    margin-top: 50px;
+  }
 }
 
 .footer__phone {
   color: var(--pink_5);
+  font-size: 12px;
   text-decoration: none;
 }
+
+@media screen and (min-width: 768px) {
+  .footer__phone {
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .footer__phone {
+    font-size: 16px;
+  }
+}
+// -------------rights----------------
 
 .footer__rights {
   padding-top: 22px;
@@ -96,28 +226,12 @@
   margin: 0 auto;
 }
 
-// TABLET
-
 @media screen and (min-width: 768px) {
-  .footer__title-one {
-    font-size: 26px;
-    letter-spacing: 0.04em;
-  }
-  .footer__title-two {
-    font-size: 48px;
-    letter-spacing: 0.06em;
-  }
-  .footer__list {
-    gap: 30px;
-  }
-  .footer__link {
-    width: 34px;
-    height: 34px;
-  }
   .footer__rights {
     padding-top: 29px;
     padding-bottom: 18px;
   }
+
   .footer__span {
     min-width: 280px;
     line-height: 1.85;
@@ -125,20 +239,7 @@
   }
 }
 
-// DESKTOP
-
 @media screen and (min-width: 1280px) {
-  .footer__title-one {
-    font-size: 30px;
-    line-height: 1.13;
-  }
-  .footer__title-two {
-    font-size: 58px;
-    line-height: 1.14;
-  }
-  .footer__list {
-    gap: 24px;
-  }
   .footer__rights {
     padding-top: 9px;
     padding-bottom: 10px;
