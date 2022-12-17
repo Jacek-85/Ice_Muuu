@@ -202,6 +202,48 @@
     }
   }
 
+  &__buttons-pink {
+    width: 198px;
+    height: 44px;
+    background: #d41342;
+    border-radius: 22px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+
+    &:hover {
+      background: #c7133e;
+    }
+  }
+
+  &__buttons-ico-white {
+    width: 8px;
+    height: 10px;
+    fill: #fff;
+  }
+
+  &__buttons-white {
+    width: 198px;
+    height: 44px;
+    background: #fff;
+    border-radius: 22px;
+    cursor: pointer;
+    color: #d41443;
+    font-size: 16px;
+    border: none;
+
+    &:hover {
+      background: #ecebeb;
+    }
+  }
+
+  &__buttons-ico-pink {
+    width: 8px;
+    height: 10px;
+    fill: #d41342;
+  }
+
   &__details {
     font-family: 'DM Sans';
     font-style: normal;
