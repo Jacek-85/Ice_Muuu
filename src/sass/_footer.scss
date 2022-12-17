@@ -2,23 +2,66 @@
   background-color: var(--pink_1);
 }
 
+.footer__title {
+  font-family: Titan One;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  max-width: 280px;
+  margin: 0 auto;
+}
+
 .footer__title-one {
   color: var(--pink_3);
-  font-family: Titan One;
   font-size: 18px;
   font-weight: 400;
   line-height: 1.16;
-  text-transform: uppercase;
+  max-width: 232px;
+  margin-bottom: 17px;
 }
 
 .footer__title-two {
   color: var(--pink_5);
-  font-family: Titan One;
   font-size: 34px;
   font-weight: 400;
   line-height: 1.15;
   letter-spacing: 0.04em;
-  text-transform: uppercase;
+  max-width: 200px;
+}
+
+.footer__links {
+  margin: 43px auto;
+  max-width: 280px;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__list {
+  display: flex;
+  gap: 28px;
+  list-style-type: none;
+  justify-content: flex-end;
+}
+
+.footer__link {
+  display: block;
+  width: 32px;
+  height: 32px;
+  background-color: var(--pink_6);
+  border-radius: 50%;
+  position: relative;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    background-color: var(--pink_5);
+  }
+}
+
+.footer__icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .footer__contact {
@@ -27,16 +70,77 @@
   font-size: 12px;
   font-weight: 700;
   line-height: 1.83;
+  margin-top: 43px;
+  text-align: right;
 }
 
 .footer__phone {
   color: var(--pink_5);
+  text-decoration: none;
 }
 
 .footer__rights {
+  padding-top: 22px;
+  padding-bottom: 25px;
+  border-top: 1px solid var(--grey_3);
+}
+
+.footer__span {
   color: var(--grey_1);
   font-family: DM Sans;
   font-size: 14px;
   font-weight: 700;
   line-height: 1.5;
+  display: block;
+  max-width: 140px;
+  margin: 0 auto;
+}
+
+// TABLET
+
+@media screen and (min-width: 768px) {
+  .footer__title-one {
+    font-size: 26px;
+    letter-spacing: 0.04em;
+  }
+  .footer__title-two {
+    font-size: 48px;
+    letter-spacing: 0.06em;
+  }
+  .footer__list {
+    gap: 30px;
+  }
+  .footer__link {
+    width: 34px;
+    height: 34px;
+  }
+  .footer__rights {
+    padding-top: 29px;
+    padding-bottom: 18px;
+  }
+  .footer__span {
+    min-width: 280px;
+    line-height: 1.85;
+    letter-spacing: 0.02em;
+  }
+}
+
+// DESKTOP
+
+@media screen and (min-width: 1280px) {
+  .footer__title-one {
+    font-size: 30px;
+    line-height: 1.13;
+  }
+  .footer__title-two {
+    font-size: 58px;
+    line-height: 1.14;
+  }
+  .footer__list {
+    gap: 24px;
+  }
+  .footer__rights {
+    padding-top: 9px;
+    padding-bottom: 10px;
+  }
 }
