@@ -4,7 +4,6 @@
     margin: 0 auto;
     max-width: 100%;
     height: 473px;
-
     background-color: var(--pink_2);
   }
   .d-none {
@@ -39,7 +38,6 @@
   .header__ice-cream {
     position: absolute;
     top: 63px;
-
     right: 247px;
     bottom: 0px;
   }
@@ -63,7 +61,6 @@
     left: 34px;
     bottom: 28px;
   }
-
   .header__button-products {
     display: flex;
     align-items: center;
@@ -83,7 +80,6 @@
     border: none;
     cursor: pointer;
   }
-
   .header__button-products:hover {
     background-color: #c7133e;
   }
@@ -121,7 +117,6 @@
     margin-left: 34px;
     margin-bottom: 0px;
   }
-
   .header__head-first {
     color: white;
     font-weight: 400;
@@ -134,7 +129,7 @@
   }
 }
 
-@media screen and(min-width: 320px) and (max-width: 480px) {
+@media screen and (min-width: 320px) and (max-width: 480px) {
   .container {
     position: relative;
     margin: 0 auto;
@@ -142,7 +137,6 @@
     height: 502px;
     background-color: var(--pink_2);
   }
-
   .header__logo-img {
     margin-top: 6px;
     margin-left: 20px;
@@ -154,7 +148,6 @@
     opacity: 0;
     cursor: pointer;
   }
-
   .header__mobile-menu {
     width: 250px;
     padding-top: 60px;
@@ -167,7 +160,6 @@
     display: flex;
     flex-direction: column;
   }
-
   .header__mobile-list {
     list-style-type: none;
     width: 100%;
@@ -185,18 +177,14 @@
   .header__list-item:last-child {
     border-bottom: 1px solid #e18298;
   }
-
   .header__link {
     text-decoration: none;
     color: white;
-
     text-align: center;
   }
-
   .header__link:hover {
     color: #d41443;
   }
-
   .header__navigation-icon {
     position: absolute;
     top: 25px;
@@ -221,11 +209,9 @@
     margin: auto;
     cursor: pointer;
   }
-
   .header__mobile-menu-btn:hover {
     background-color: #ecebeb;
   }
-
   .header__menu-icon {
     display: flex;
     align-items: center;
@@ -241,7 +227,6 @@
     border: none;
     cursor: pointer;
   }
-
   .header__head {
     width: 218px;
     height: 106px;
@@ -252,7 +237,6 @@
     top: 137px;
     left: 20px;
   }
-
   .header__head-first {
     color: white;
     font-weight: 400;
@@ -263,7 +247,6 @@
     font-weight: 400;
     font-size: 48px;
   }
-
   .header__elipse {
     position: absolute;
     top: 83px;
@@ -295,11 +278,9 @@
     border: none;
     cursor: pointer;
   }
-
   .header__button-products:hover {
     background-color: #c7133e;
   }
-
   .header__button-how-its-made {
     display: flex;
     align-items: center;
@@ -323,7 +304,6 @@
   .header__button-how-its-made:hover {
     background-color: #ecebeb;
   }
-
   .header__girls-photo {
     display: none;
   }
@@ -333,7 +313,6 @@
   .header__group-23 {
     display: none;
   }
-
   .header__bootle-photo {
     display: none;
   }

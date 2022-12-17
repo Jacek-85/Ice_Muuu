@@ -1,0 +1,209 @@
+@import '~node_modules/modern-normalize/modern-normalize.css';
+:root {
+  --pink_1: #FFF5F6;
+  --pink_2: #FFB8CA;
+  --pink_3: #FFA5BA;
+  --pink_4: #E17992;
+  --pink_5: #D41443;
+  --pink_6: #FEA5BB;
+  --coffee: #F0D1A5;
+  --pistachio: #C2E297;
+  --background: #E5E5E5;
+  --white: #ffffff;
+  --black: #000000;
+  --grey_1: #907E82;
+  --grey_2: #FAFAFA;
+  --grey_3: #E1E1E1;
+  --grey_4: #D9D9D9;
+  --red_1: #C7133E;
+  --red_2: #D31342;
+}
+
+.example {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  line-height: 1.5;
+  background-color: #fff;
+  color: #2f2f37;
+  max-width: 960px;
+  padding: 16px;
+}
+
+.example code {
+  font-family: monospace;
+  font-size: 16px;
+  font-weight: 700;
+  background-color: #ff6b0a;
+  color: #fff;
+  padding: 2px 6px;
+  border-radius: 2px;
+}
+
+.example .background {
+  height: 240px;
+  background-image: url("../images/logo.png");
+  background-size: cover;
+  background-position: center;
+}
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .container {
+    position: relative;
+    margin: 0 auto;
+    max-width: 100%;
+    height: 502px;
+    background-color: var(--pink_2);
+  }
+  .header__logo-img {
+    margin-top: 6px;
+    margin-left: 20px;
+  }
+  .header__mobile-btn {
+    position: absolute;
+    top: 30px;
+    right: 37px;
+    opacity: 0;
+    cursor: pointer;
+  }
+  .header__mobile-menu {
+    width: 250px;
+    padding-top: 60px;
+    padding-bottom: 171px;
+    background-color: #e17992;
+    z-index: 4;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  .header__mobile-list {
+    list-style-type: none;
+    border-bottom: 1px solid #e18298;
+  }
+  .header__list-item {
+    height: 40px;
+    display: flex;
+    align-items: center;
+  }
+  .header__list-item:nth-child(2) {
+    border-top: 1px solid #e18298;
+    border-bottom: 1px solid #e18298;
+  }
+  .header__link {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    text-align: center;
+  }
+  .header__navigation-icon {
+    position: absolute;
+    top: 23px;
+    right: 37px;
+  }
+  .header__mobile-menu-btn {
+    margin-top: 60px;
+    width: 209px;
+    height: 44px;
+    background-color: white;
+    color: #d41443;
+    font-family: DM sans;
+    border: none;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.31;
+    border-radius: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    cursor: pointer;
+  }
+  .header__menu-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 15.77px;
+    margin-top: 3px;
+  }
+  .header__exit-btn {
+    position: absolute;
+    top: 23px;
+    left: 208px;
+    background-color: #e17992;
+    border: none;
+    cursor: pointer;
+  }
+  .header__head {
+    width: 218px;
+    height: 106px;
+    text-transform: uppercase;
+    font-family: Titan One;
+    z-index: 3;
+    position: absolute;
+    top: 137px;
+    left: 20px;
+  }
+  .header__head-first {
+    color: white;
+    font-weight: 400;
+    font-size: 26px;
+  }
+  .header__head-second {
+    color: #d41443;
+    font-weight: 400;
+    font-size: 48px;
+  }
+  .header__elipse {
+    position: absolute;
+    top: 83px;
+    right: 0px;
+    z-index: 0;
+  }
+  .header__ice-cream {
+    position: absolute;
+    top: 92px;
+    right: 32px;
+    z-index: 2;
+  }
+  .header__button-products {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 318px;
+    left: 20px;
+    color: white;
+    background-color: #d41443;
+    border-radius: 20px;
+    width: 62.4px;
+    height: 24px;
+    font-family: DM sans;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 1.25;
+    border: none;
+    cursor: pointer;
+  }
+  .header__button-how-its-made {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 318px;
+    left: 90.4px;
+    color: #d41443;
+    background-color: white;
+    border-radius: 20px;
+    width: 82.8px;
+    height: 24px;
+    font-family: DM sans;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 1.25;
+    border: none;
+    z-index: 2;
+    cursor: pointer;
+  }
+}/*# sourceMappingURL=index.css.map */
