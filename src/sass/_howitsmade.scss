@@ -79,7 +79,8 @@
 
 .h-i-m__milk-picture {
   display: block;
-  width: 100vw;
+  width: 100%;
+  max-width: 100vw;
   height: 133px;
   position: absolute;
   top: 650px;
@@ -217,9 +218,11 @@
   }
   .h-i-m__milk-picture-desktop {
     display: block;
-    width: 100vw;
+    width: 100%;
+    max-width: 100vw;
     position: absolute;
     top: 280px;
+    left: 0;
     height: 534px;
   }
 
