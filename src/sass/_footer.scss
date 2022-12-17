@@ -111,7 +111,7 @@
 @media screen and (min-width: 768px) {
   .footer__links {
     margin: 0;
-    min-width: 270px;
+    max-width: 350px;
   }
 }
 
@@ -162,6 +162,12 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.footer__icon--fit {
+  left: 44%;
+  top: 47%;
+  transform: translate(-47%, -44%);
 }
 
 // -----------contact-----------
