@@ -1,0 +1,335 @@
+.contact {
+  background-color: #fff5f6;
+  padding-top: 200px;
+  padding-bottom: 200px;
+  position: relative;
+
+  &__header {
+    display: none;
+  }
+
+  &__line {
+    border-bottom: 1px solid #e1e1e1;
+  }
+
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    padding: 0 50px;
+    background-color: #fff5f6;
+
+    @media (min-width: 768px) {
+      flex-direction: row;
+      gap: 29px;
+      width: 700px;
+      margin: 0 auto;
+    }
+
+    @media (min-width: 1280px) {
+      width: 1050px;
+      margin: 0 auto;
+    }
+  }
+
+  &__item {
+    width: 220px;
+    height: 427px;
+    background: #ffffff;
+    box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
+    border-radius: 24px;
+    padding: 45px 20px;
+    margin: 0 auto;
+
+    @media (min-width: 768px) {
+      width: 220px;
+      height: 544px;
+      padding: 48px 20px;
+    }
+
+    @media (min-width: 1280px) {
+      width: 330px;
+      height: 572px;
+      padding: 52px 20px;
+    }
+  }
+
+  &__ribbon {
+    margin-bottom: 20px;
+
+    @media (min-width: 768px) {
+      margin-bottom: 35px;
+    }
+
+    // @media (min-width: 1280px) {
+    //   margin-bottom: 35px;
+    // }
+  }
+
+  &__ribbon-bg-cafe {
+    width: 80px;
+    height: 16px;
+    background: #f0d1a5;
+    border-radius: 4px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 186%;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    @media (min-width: 768px) {
+      width: 73px;
+      height: 28px;
+      font-size: 16px;
+    }
+  }
+
+  &__ribbon-bg-foodtrack {
+    width: 130px;
+    height: 16px;
+    background: #c2e297;
+    border-radius: 4px;
+    text-transform: uppercase;
+    color: #ffffff;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 186%;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    @media (min-width: 768px) {
+      width: 138px;
+      height: 28px;
+      font-size: 16px;
+    }
+  }
+
+  &__city-name {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 186%;
+    letter-spacing: 0.04em;
+    color: #000;
+    margin-bottom: 10px;
+
+    @media (min-width: 768px) {
+      font-size: 14px;
+    }
+
+    @media (min-width: 1280px) {
+      font-size: 16px;
+    }
+  }
+
+  &__city-description {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 12px;
+    margin-bottom: 60px;
+    line-height: 18px;
+    color: #907e82;
+    margin-bottom: 25px;
+
+    @media (min-width: 768px) {
+      font-size: 14px;
+      line-height: 166%;
+    }
+
+    @media (min-width: 1280px) {
+      font-size: 16px;
+      line-height: 183%;
+      margin-bottom: 30px;
+    }
+  }
+
+  &__open-item {
+    margin-bottom: 10px;
+  }
+
+  &__open {
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+    @media (min-width: 768px) {
+      margin-top: 30px;
+      margin-bottom: 30px;
+    }
+
+    @media (min-width: 1280px) {
+      margin-top: 30px;
+      margin-bottom: 30px;
+    }
+  }
+
+  &__open-days {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 186%;
+    color: #000;
+    // margin-bottom: -2px;
+
+    @media (min-width: 768px) {
+      font-size: 14px;
+    }
+
+    @media (min-width: 1280px) {
+      font-size: 16px;
+    }
+  }
+
+  &__open-hours {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 186%;
+    color: #ffa5ba;
+
+    @media (min-width: 768px) {
+      font-size: 14px;
+    }
+
+    @media (min-width: 1280px) {
+      font-size: 16px;
+    }
+  }
+
+  &__buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    margin: 54px 0;
+
+    @media (min-width: 768px) {
+      margin: 81px 0;
+      flex-direction: row;
+    }
+  }
+
+  &__buttons-pink {
+    width: 198px;
+    height: 44px;
+    background: #d41342;
+    border-radius: 22px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    transition: all;
+    transition-duration: 0.3s;
+    transition-property: all;
+
+    &:hover {
+      background: #c7133e;
+    }
+  }
+
+  &__buttons-ico-white {
+    width: 8px;
+    height: 10px;
+    stroke: #fff;
+  }
+
+  &__buttons-white {
+    width: 198px;
+    height: 44px;
+    background: #fff;
+    border-radius: 22px;
+    cursor: pointer;
+    color: #d41443;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    transition: all;
+    transition-duration: 0.3s;
+    transition-property: all;
+
+    &:hover {
+      background: #ecebeb;
+    }
+  }
+
+  &__buttons-ico-pink {
+    width: 8px;
+    height: 10px;
+    stroke: #d41342;
+  }
+
+  &__details {
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    color: #907e82;
+    margin-top: 25px;
+
+    @media (min-width: 768px) {
+      font-size: 14px;
+      line-height: 183%;
+      margin-top: 30px;
+    }
+
+    @media (min-width: 1280px) {
+      font-size: 16px;
+      margin-top: 35px;
+    }
+  }
+
+  &__bg {
+    display: none;
+    width: 100%;
+    max-width: 100vw;
+    position: absolute;
+    top: 280px;
+    left: 0;
+    height: 534px;
+
+    @media (min-width: 768px) {
+      display: none;
+    }
+
+    @media (min-width: 1280px) {
+      display: block;
+      width: 100%;
+      max-width: 100vw;
+      position: absolute;
+      top: 280px;
+      left: 0;
+      height: 534px;
+    }
+  }
+}
+
+a {
+  text-decoration: none;
+  color: var(--secondary-color);
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    text-decoration: underline;
+  }
+}
