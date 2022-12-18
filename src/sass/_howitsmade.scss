@@ -1,7 +1,6 @@
 // MICRO RESET
 .h-i-m {
   margin: 0 auto;
-  padding: 0 auto;
 }
 
 .h-i-m__title,
@@ -39,7 +38,7 @@
   font-weight: 400;
   font-size: 34px;
   line-height: 38.93px;
-  letter-spacing: 4%;
+  letter-spacing: 0.04rem;
   text-align: center;
   padding-top: 15px;
   color: #d41443;
@@ -180,7 +179,7 @@
   .h-i-m__title-bottom {
     font-size: 48px;
     line-height: 55px;
-    letter-spacing: 4%;
+    letter-spacing: 0.04rem;
   }
 }
 // DESKTOP ! ! ! ! !! !
@@ -198,7 +197,7 @@
   .h-i-m__paragraph {
     font-size: 16px;
     line-height: 29px;
-    letter-spacing: 4%;
+    letter-spacing: 0.04rem;
     min-width: 463px;
   }
 
@@ -208,13 +207,13 @@
   .h-i-m__title {
     font-size: 30px;
     line-height: 35px;
-    letter-spacing: 4%;
+    letter-spacing: 0.04rem;
   }
 
   .h-i-m__title-bottom {
     font-size: 58px;
     line-height: 67px;
-    letter-spacing: 6%;
+    letter-spacing: 0.06rem;
   }
   .h-i-m__milk-picture-desktop {
     display: block;
