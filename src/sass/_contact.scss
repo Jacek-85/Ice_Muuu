@@ -2,6 +2,7 @@
   background-color: #fff5f6;
   padding-top: 200px;
   padding-bottom: 200px;
+  position: relative;
 
   &__header {
     display: none;
@@ -295,10 +296,6 @@
       margin-top: 35px;
     }
   }
-}
-
-&__background {
-  position: relative;
 }
 
 &__bg {
