@@ -8,7 +8,7 @@
 
 /* ------------ CONTEINERS ----------- */
 
-.products__section {
+.products {
   margin: 0 20px;
   display: flex;
   flex-direction: column;
@@ -17,51 +17,49 @@
   margin-bottom: 98px;
   font-family: 'Titan One', cursive;
   color: var(--white);
-}
-
-.products__container {
-  position: relative;
-  padding-top: 161px;
-  width: 280px;
-  height: 485px;
-  border-radius: 24px;
-  align-items: flex-end;
-  text-align: center;
-  margin-bottom: 130px;
-}
-
-.products__container:nth-child(1)::before {
-  content: '';
-  background-image: url(../images/products/products-ice-1.png);
-  background-size: contain;
-  width: 249px;
-  height: 252px;
-  position: absolute;
-  top: -113px;
-  left: 16px;
-}
-.products__container:nth-child(2)::before {
-  content: '';
-  background-image: url(../images/products/products-ice-2.png);
-  background-size: contain;
-  width: 249px;
-  height: 252px;
-  position: absolute;
-  top: -113px;
-  left: 16px;
-}
-.products__container:nth-child(3)::before {
-  content: '';
-  background-image: url(../images/products/products-ice-3.png);
-  background-size: contain;
-  width: 249px;
-  height: 252px;
-  position: absolute;
-  top: -113px;
-  left: 16px;
-}
-.products__containerproducts__container:last-child {
-  margin-bottom: 0;
+  &__container {
+    position: relative;
+    padding-top: 161px;
+    width: 280px;
+    height: 485px;
+    border-radius: 24px;
+    align-items: flex-end;
+    text-align: center;
+    margin-bottom: 130px;
+    &:nth-child(1)::before {
+      content: '';
+      background-image: url(../images/products/products-ice-1.png);
+      background-size: contain;
+      width: 249px;
+      height: 252px;
+      position: absolute;
+      top: -113px;
+      left: 16px;
+    }
+    &:nth-child(2)::before {
+      content: '';
+      background-image: url(../images/products/products-ice-2.png);
+      background-size: contain;
+      width: 249px;
+      height: 252px;
+      position: absolute;
+      top: -113px;
+      left: 16px;
+    }
+    &:nth-child(3)::before {
+      content: '';
+      background-image: url(../images/products/products-ice-3.png);
+      background-size: contain;
+      width: 249px;
+      height: 252px;
+      position: absolute;
+      top: -113px;
+      left: 16px;
+    }
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
 }
 
 @media (min-device-pixel-ratio: 2),
@@ -82,48 +80,50 @@
 }
 
 @media screen and (min-width: 768px) {
-  .products__section {
+  .products {
     margin-top: 122px;
     margin-bottom: 112px;
-  }
+    &__wrapper {
+      display: flex;
+      gap: 20px;
+    }
+    &__container {
+      padding-top: 152px;
+      width: 220px;
+      margin: 0;
+      &:nth-child(1)::before {
+        content: '';
+        background-image: url(../images/products/products-ice-1-tablet.png);
+        background-size: contain;
+        width: 220px;
+        height: 226px;
+        left: 0;
+        top: -100px;
+      }
 
-  .products__container {
-    padding-top: 152px;
-    width: 220px;
-    margin: 0;
-  }
+      &:nth-child(2)::before {
+        content: '';
+        background-image: url(../images/products/products-ice-2-tablet.png);
+        background-size: contain;
+        width: 220px;
+        height: 233px;
+        left: 0;
+        top: -107px;
+      }
 
-  .products__container:nth-child(1)::before {
-    content: '';
-    background-image: url(../images/products/products-ice-1-tablet.png);
-    background-size: contain;
-    width: 220px;
-    height: 226px;
-    left: 0;
-    top: -100px;
-  }
-
-  .products__container:nth-child(2)::before {
-    content: '';
-    background-image: url(../images/products/products-ice-2-tablet.png);
-    background-size: contain;
-    width: 220px;
-    height: 233px;
-    left: 0;
-    top: -107px;
-  }
-
-  .products__container:nth-child(3)::before {
-    content: '';
-    background-image: url(../images/products/products-ice-3-tablet.png);
-    background-size: contain;
-    width: 220px;
-    height: 224px;
-    left: 0;
-    top: -102px;
-  }
-  .products__container:last-child {
-    margin-bottom: 0;
+      &:nth-child(3)::before {
+        content: '';
+        background-image: url(../images/products/products-ice-3-tablet.png);
+        background-size: contain;
+        width: 220px;
+        height: 224px;
+        left: 0;
+        top: -102px;
+      }
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
   }
 
   @media (min-device-pixel-ratio: 2),
@@ -142,53 +142,47 @@
       background-image: url(../images/products/products-ice-3-tablet@2x.png);
     }
   }
-
-  .products__wrapper {
-    display: flex;
-    gap: 20px;
-  }
 }
 
 @media screen and (min-width: 1280px) {
-  .products__section {
+  .products {
     margin-top: 127px;
     margin-bottom: 120px;
-  }
-
-  .products__container {
-    padding-top: 163px;
-    width: 330px;
-    height: 525px;
-  }
-
-  .products__container:nth-child(1)::before {
-    content: '';
-    background-image: url(../images/products/products-ice-1-desctop.png);
-    background-size: contain;
-    width: 335px;
-    height: 335px;
-    left: -3px;
-    top: -210px;
-  }
-
-  .products__container:nth-child(2)::before {
-    content: '';
-    background-image: url(../images/products/products-ice-2-desctop.png);
-    background-size: contain;
-    width: 337px;
-    height: 335px;
-    left: -3px;
-    top: -210px;
-  }
-
-  .products__container:nth-child(3)::before {
-    content: '';
-    background-image: url(../images/products/products-ice-3-desctop.png);
-    background-size: contain;
-    width: 335px;
-    height: 335px;
-    left: -3px;
-    top: -210px;
+    &__wrapper {
+      gap: 30px;
+    }
+    &__container {
+      padding-top: 163px;
+      width: 330px;
+      height: 525px;
+      &:nth-child(1)::before {
+        content: '';
+        background-image: url(../images/products/products-ice-1-desctop.png);
+        background-size: contain;
+        width: 335px;
+        height: 335px;
+        left: -3px;
+        top: -210px;
+      }
+      &:nth-child(2)::before {
+        content: '';
+        background-image: url(../images/products/products-ice-2-desctop.png);
+        background-size: contain;
+        width: 337px;
+        height: 335px;
+        left: -3px;
+        top: -210px;
+      }
+      &:nth-child(3)::before {
+        content: '';
+        background-image: url(../images/products/products-ice-3-desctop.png);
+        background-size: contain;
+        width: 335px;
+        height: 335px;
+        left: -3px;
+        top: -210px;
+      }
+    }
   }
 
   @media (min-device-pixel-ratio: 2),
@@ -206,10 +200,6 @@
       content: '';
       background-image: url(../images/products/products-ice-3-desctop@2x.png);
     }
-  }
-
-  .products__wrapper {
-    gap: 30px;
   }
 }
 
