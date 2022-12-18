@@ -298,13 +298,27 @@
   }
 
   &__bg {
-    display: block;
+    display: none;
     width: 100%;
     max-width: 100vw;
     position: absolute;
     top: 280px;
     left: 0;
     height: 534px;
+
+    @media (min-width: 768px) {
+      display: none;
+    }
+
+    @media (min-width: 1280px) {
+      display: block;
+      width: 100%;
+      max-width: 100vw;
+      position: absolute;
+      top: 280px;
+      left: 0;
+      height: 534px;
+    }
   }
 }
 
