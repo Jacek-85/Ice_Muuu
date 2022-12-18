@@ -3,9 +3,9 @@ const closeMenuButton = document.querySelector('.header__exit-btn');
 const openMenuBtn = document.querySelector('.header__mobile-btn');
 
 openMenuBtn.addEventListener('click', e => {
-  menuOverlay.classList.remove('d-none');
+  menuOverlay.classList.remove('.d-none');
 });
 
 closeMenuButton.addEventListener('click', e => {
-  menuOverlay.classList.add('d-none');
+  menuOverlay.classList.add('.d-none');
 });
