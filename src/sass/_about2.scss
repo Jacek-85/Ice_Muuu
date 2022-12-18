@@ -2,7 +2,7 @@
     
     background-color: var(--pink_1);
     padding-bottom: 97px;
-    max-width: 100%;
+    width: 100%;
 }
 .about2_tittle {
     margin-top: 20px;
@@ -23,9 +23,11 @@
     margin-left: 36px;
     margin-right: 76px;}
 
-    @media screen and (min-width: 1200px) {
+    @media screen and (min-width: 1280px) {
     margin-left: 115px;
     padding: 0;
+    
+    
   }
 }
 .about2_header {
@@ -37,7 +39,7 @@ line-height: 55px;
 letter-spacing: 0.04em;
 text-transform: uppercase;
 color: var(--pink_5);
-margin-bottom: 84px;
+margin-bottom: 20px
 }
 .about2_icon1:before {
 position: absolute;
@@ -79,4 +81,5 @@ font-weight: 700;
 font-size: 14px;
 line-height: 24px;
 color: var(--black);
+margin-bottom: 74px;
 }
