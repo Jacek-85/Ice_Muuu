@@ -16,7 +16,7 @@
   margin-top: 120px;
   margin-bottom: 98px;
   font-family: 'Titan One', cursive;
-  color: white;
+  color: var(--white);
 }
 
 .products__container {
@@ -24,7 +24,6 @@
   padding-top: 161px;
   width: 280px;
   height: 485px;
-  background-color: #ffb8ca;
   border-radius: 24px;
   align-items: flex-end;
   text-align: center;
@@ -150,7 +149,7 @@
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1280px) {
   .products__section {
     margin-top: 127px;
     margin-bottom: 120px;
@@ -217,13 +216,15 @@
 /* ------------------------------------ */
 
 /* ---------- MODDIFIRE --------------- */
-
+.pink {
+  background-color: var(--pink_2);
+}
 .yellow {
-  background-color: #f0d1a5;
+  background-color: var(--coffee);
 }
 
 .green {
-  background-color: #c2e297;
+  background-color: var(--pistachio);
 }
 
 /* ------------------------------------ */
@@ -232,14 +233,14 @@
 .products__span {
   font-size: 18px;
   text-transform: uppercase;
-  color: #ffa5ba;
+  color: var(--pink_3);
 }
 
 .products__header {
   font-size: 34px;
   text-transform: uppercase;
   letter-spacing: 0.04em;
-  color: #d41443;
+  color: var(--pink_5);
   margin-top: 15px;
   margin-bottom: 144px;
 }
@@ -303,7 +304,7 @@
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1280px) {
   .products__content-header::after {
     bottom: -41px;
     right: 151px;
@@ -347,7 +348,7 @@
   }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1280px) {
   .products__arrow {
     margin-top: 60px;
   }
