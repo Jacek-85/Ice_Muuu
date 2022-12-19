@@ -475,6 +475,8 @@
     position: absolute;
     top: 54px;
     right: 226px;
+    width: 18px;
+    height: 18px;
     opacity: 0;
     cursor: pointer;
   }
@@ -742,6 +744,8 @@
     position: absolute;
     top: 30px;
     right: 37px;
+    width: 18px;
+    height: 18px;
     opacity: 0;
     cursor: pointer;
   }
@@ -974,5 +978,10 @@
   }
   .header__btn-buy-tablet {
     display: none;
+  }
+  .header__logo-img-mobile {
+    position: absolute;
+    top: 6px;
+    left: 20px;
   }
 }
