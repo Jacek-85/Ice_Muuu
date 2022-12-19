@@ -1,7 +1,3 @@
-<<<<<<< Updated upstream
-@media screen and (min-width: 481px) and (max-width: 768px) {
-  .container {
-=======
 @media screen and (min-width: 769px) and (max-width: 1280px) {
   .container__header {
     position: relative;
@@ -229,7 +225,6 @@
   }
 
   .container__header {
->>>>>>> Stashed changes
     position: relative;
     margin: 0 auto;
     max-width: 100%;
@@ -266,34 +261,104 @@
     top: 31px;
     right: 137px;
   }
+  .header__ellipse-desktop {
+    display: none;
+  }
   .header__ice-cream {
+    display: none;
+  }
+  .header__ice-cream-tablet {
     position: absolute;
     top: 63px;
-
     right: 247px;
-    bottom: 0px;
+  }
+  .header__ice-cream-desktop {
+    display: none;
   }
   .header__girls-photo {
     position: absolute;
     right: 34px;
     bottom: 0px;
   }
+  .header__girl-desktop {
+    display: none;
+  }
   .header__group-22 {
     position: absolute;
     top: 94px;
     right: 34px;
+  }
+  .header__group-22-desktop {
+    display: none;
   }
   .header__group-23 {
     position: absolute;
     top: 151px;
     right: 34px;
   }
+  .header__group-23-desktop {
+    display: none;
+  }
   .header__bootle-photo {
     position: absolute;
     left: 34px;
     bottom: 28px;
   }
+  .header__bootle-photo-desktop {
+    display: none;
+  }
+  .arrow-right {
+    position: absolute;
+    left: 154px;
+    bottom: 34px;
+  }
+  .arrow-right-desktop {
+    display: none;
+  }
 
+  .header__paragraph {
+    width: 114px;
+    height: 48px;
+    font-weight: 400;
+    font-size: 8px;
+    line-height: 1.5;
+
+    color: #ffffff;
+    position: absolute;
+    left: 154px;
+    bottom: 59px;
+  }
+  .header__btn-buy {
+    position: absolute;
+    top: 38px;
+    right: 34px;
+    width: 160px;
+    height: 44px;
+    background-color: white;
+    color: #d41443;
+    font-family: DM sans;
+    border: none;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.31;
+    border-radius: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    cursor: pointer;
+  }
+  .header__btn-buy:hover {
+    background-color: #ecebeb;
+  }
+
+  .header__btn-buy-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 12px;
+    margin-top: 3px;
+  }
   .header__button-products {
     display: flex;
     align-items: center;
@@ -538,6 +603,13 @@
     right: 32px;
     z-index: 2;
   }
+  .header__ice-cream-tablet {
+    display: none;
+  }
+  .header__ice-cream-desktop {
+    display: none;
+  }
+
   .header__button-products {
     display: flex;
     align-items: center;
@@ -589,17 +661,47 @@
   .header__girls-photo {
     display: none;
   }
+  .header__girl-desktop {
+    display: none;
+  }
   .header__group-22 {
+    display: none;
+  }
+  .header__group-22-desktop {
     display: none;
   }
   .header__group-23 {
     display: none;
   }
-
+  .header__group-23-desktop {
+    display: none;
+  }
   .header__bootle-photo {
     display: none;
   }
+  .header__bootle-photo-desktop {
+    display: none;
+  }
   .header__ellipse-tablet {
+    display: none;
+  }
+  .arrow-right {
+    display: none;
+  }
+  .arrow-right-desktop {
+    display: none;
+  }
+
+  .header__navigation-desktop {
+    display: none;
+  }
+  .header__ellipse-desktop {
+    display: none;
+  }
+  .header__paragraph {
+    display: none;
+  }
+  .header__btn-buy {
     display: none;
   }
 }
