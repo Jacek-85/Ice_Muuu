@@ -473,17 +473,19 @@
   }
   .header__mobile-btn {
     position: absolute;
-    top: 54px;
-    right: 226px;
-    width: 18px;
-    height: 18px;
-    opacity: 0;
+    top: 5px;
+    right: 112px;
+    width: 25px;
+    height: 25px;
+    opacity: 1;
+    border: 0;
+    background-color: Var(--pink_2);
     cursor: pointer;
   }
   .header__navigation-icon {
     position: absolute;
-    top: 52px;
-    right: 224px;
+    top: 5px;
+    right: 112px;
     cursor: pointer;
     z-index: 4;
   }
@@ -710,11 +712,13 @@
   }
   .header__mobile-btn {
     position: absolute;
-    top: 30px;
+    top: 25px;
     right: 37px;
-    width: 18px;
-    height: 18px;
-    opacity: 0;
+    width: 25px;
+    height: 25px;
+    opacity: 1;
+    border: 0;
+    background-color: var(--pink_2);
     cursor: pointer;
   }
 
@@ -762,8 +766,10 @@
 
   .header__navigation-icon {
     position: absolute;
-    top: 25px;
-    right: 37px;
+    top: 0px;
+    right: 0px;
+    opacity: 1;
+    z-index: 5;
     cursor: pointer;
   }
   .header__mobile-menu-btn {
