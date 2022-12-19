@@ -1,15 +1,11 @@
 (() => {
-  const menuOpenBtn = document.querySelector('[data-menu-open]');
-  const menuCloseBtn = document.querySelector('[data-menu-close]');
-
-  const mobileMenu = document.querySelector('[data-menu]');
-  // const body = document.querySelector('body');
-
-  menuOpenBtn.addEventListener('click', openModal);
-  menuCloseBtn.addEventListener('click', openModal);
-
-  function openModal() {
-    mobileMenu.classList.toggle('is-open');
-    // body.classList.toggle('no-scroll');
-  }
+  const menuOverlay = document.querySelector('.header__menu-mobile');
+  const closeMenuButton = document.querySelector('.header__exit-btn');
+  const openMenuBtn = document.querySelector('.header__mobile-btn');
+  openMenuBtn.addEventListener('click', e => {
+    menuOverlay.classList.remove('d-none');
+  });
+  closeMenuButton.addEventListener('click', e => {
+    menuOverlay.classList.add('d-none');
+  });
 })();
