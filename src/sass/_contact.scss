@@ -24,7 +24,7 @@
     display: flex;
     flex-direction: column;
     row-gap: 20px;
-    padding: 0 50px;
+    // padding: 0 50px;
     // background-color: #fff5f6;
 
     @media (min-width: 768px) {
@@ -52,13 +52,13 @@
     @media (min-width: 768px) {
       width: 220px;
       height: 544px;
-      padding: 48px 20px;
+      padding: 48px 31px;
     }
 
     @media (min-width: 1280px) {
       width: 330px;
       height: 572px;
-      padding: 52px 20px;
+      padding: 52px 43px;
     }
   }
 
@@ -68,10 +68,6 @@
     @media (min-width: 768px) {
       margin-bottom: 35px;
     }
-
-    // @media (min-width: 1280px) {
-    //   margin-bottom: 35px;
-    // }
   }
 
   &__ribbon-bg-cafe {
@@ -305,13 +301,16 @@
     }
   }
 
+  &__background {
+    display: flex;
+    justify-content: center;
+  }
+
   &__bg {
     display: none;
-    width: 100%;
-    max-width: 100vw;
+    width: 1280px;
     position: absolute;
     top: 80px;
-    left: 0;
     height: 534px;
 
     @media (min-width: 768px) {
@@ -320,12 +319,12 @@
 
     @media (min-width: 1280px) {
       display: block;
-      width: 100%;
-      max-width: 100vw;
-      position: absolute;
-      top: 80px;
-      left: 0;
-      height: 534px;
+      // width: 100%;
+      // max-width: 100vw;
+      // position: absolute;
+      // top: 80px;
+      // left: 0;
+      // height: 534px;
     }
   }
 }
