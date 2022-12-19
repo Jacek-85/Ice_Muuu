@@ -1,5 +1,235 @@
+<<<<<<< Updated upstream
 @media screen and (min-width: 481px) and (max-width: 768px) {
   .container {
+=======
+@media screen and (min-width: 769px) and (max-width: 1280px) {
+  .container__header {
+    position: relative;
+    margin: 0 auto;
+    max-width: 100%;
+    height: 665px;
+    background-color: var(--pink_2);
+  }
+  .d-none {
+    display: none;
+  }
+  .header__logo-img {
+    margin-top: -37px;
+    margin-left: 46px;
+  }
+  .header__navigation-desktop {
+    padding-top: 50px;
+  }
+  .header__desktop-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+  }
+  .header__desktop-item {
+    margin-left: 35px;
+    z-index: 1;
+  }
+  .header__desktop-link {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.31;
+    z-index: 1;
+  }
+  .header__desktop-link:hover {
+    color: #d41443;
+  }
+  .header__mobile-btn {
+    display: none;
+  }
+  .header__navigation-icon {
+    display: none;
+  }
+  .header__elipse {
+    display: none;
+  }
+  .header__ellipse-tablet {
+    display: none;
+  }
+  .header__ellipse-desktop {
+    position: absolute;
+    top: 52px;
+    right: 267px;
+  }
+  .header__ice-cream {
+    display: none;
+  }
+  .header__ice-cream-tablet {
+    display: none;
+  }
+  .header__ice-cream-desktop {
+    position: absolute;
+    top: 108px;
+    right: 450px;
+  }
+  .header__girls-photo {
+    display: none;
+  }
+  .header__girl-desktop {
+    position: absolute;
+    right: 109px;
+    bottom: 0px;
+  }
+  .header__group-22 {
+    display: none;
+  }
+  .header__group-22-desktop {
+    position: absolute;
+    top: 156px;
+    right: 97px;
+  }
+  .header__group-23 {
+    display: none;
+  }
+  .header__group-23-desktop {
+    position: absolute;
+    top: 248px;
+    right: 97px;
+  }
+  .header__bootle-photo {
+    display: none;
+  }
+  .header__bootle-photo-desktop {
+    position: absolute;
+    left: 77px;
+    bottom: 45px;
+  }
+  .arrow-right {
+    display: none;
+  }
+  .arrow-right-desktop {
+    position: absolute;
+    left: 295px;
+    bottom: 56px;
+  }
+
+  .header__paragraph {
+    width: 200px;
+    height: 78px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.4;
+    color: white;
+    position: absolute;
+    left: 295px;
+    bottom: 102px;
+  }
+  .header__button-products {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 333px;
+    left: 115px;
+    color: white;
+    background-color: #d41443;
+    border-radius: 20px;
+    width: 102px;
+    height: 40px;
+    font-family: DM sans;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.28;
+    border: none;
+    cursor: pointer;
+  }
+
+  .header__button-products:hover {
+    background-color: #c7133e;
+  }
+  .header__button-how-its-made {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 333px;
+    left: 234px;
+    color: #d41443;
+    background-color: white;
+    border-radius: 20px;
+    width: 138px;
+    height: 40px;
+    font-family: DM sans;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.28;
+    border: none;
+    z-index: 2;
+    cursor: pointer;
+  }
+  .header__button-how-its-made:hover {
+    background-color: #ecebeb;
+  }
+  .header__head {
+    position: absolute;
+    top: 171px;
+    left: 115px;
+    width: 277px;
+    height: 137px;
+    line-height: 1.15;
+    text-transform: uppercase;
+    font-family: Titan One;
+    z-index: 3;
+
+    margin-bottom: 0px;
+  }
+
+  .header__head-first {
+    color: white;
+    font-weight: 400;
+    font-size: 38px;
+  }
+  .header__head-second {
+    color: #d41443;
+    font-weight: 400;
+    font-size: 58px;
+  }
+  .header__btn-buy {
+    position: absolute;
+    top: 38px;
+    right: 115px;
+    width: 159px;
+    height: 44px;
+    background-color: white;
+    color: #d41443;
+    font-family: DM sans;
+    border: none;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.31;
+    border-radius: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    cursor: pointer;
+  }
+  .header__btn-buy:hover {
+    background-color: #ecebeb;
+  }
+
+  .header__btn-buy-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 12px;
+    margin-top: 3px;
+  }
+}
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .header__navigation-desktop {
+    display: none;
+  }
+
+  .container__header {
+>>>>>>> Stashed changes
     position: relative;
     margin: 0 auto;
     max-width: 100%;
@@ -167,7 +397,7 @@
 }
 
 @media screen and(min-width: 320px) and (max-width: 480px) {
-  .container {
+  .container__header {
     position: relative;
     margin: 0 auto;
     max-width: 100%;
