@@ -1,13 +1,15 @@
 (() => {
-  const menuOverlay = document.querySelector('.header__menu-mobile');
-  const closeMenuButton = document.querySelector('.header__exit-btn');
-  const openMenuBtn = document.querySelector('.header__mobile-btn');
+  const menuOpenBtn = document.querySelector('[data-menu-open]');
+  const menuCloseBtn = document.querySelector('[data-menu-close]');
 
-  openMenuBtn.addEventListener('click', e => {
-    menuOverlay.classList.remove('d-none');
-  });
+  const mobileMenu = document.querySelector('[data-menu]');
+  // const body = document.querySelector('body');
 
-  closeMenuButton.addEventListener('click', e => {
-    menuOverlay.classList.add('d-none');
-  });
+  menuOpenBtn.addEventListener('click', openModal);
+  menuCloseBtn.addEventListener('click', openModal);
+
+  function openModal() {
+    mobileMenu.classList.toggle('is-open');
+    // body.classList.toggle('no-scroll');
+  }
 })();
