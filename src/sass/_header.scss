@@ -63,6 +63,37 @@
     position: absolute;
     top: 52px;
     right: 267px;
+    animation: fromTop 4s 0.5s;
+  }
+  .header__ice-cream-desktop {
+    position: absolute;
+    top: 108px;
+    right: 450px;
+    animation: fromBottom 4s 0.5s;
+  }
+
+  @keyframes fromTop {
+    0% {
+      opacity: 0;
+      transform: translateY(-500px);
+    }
+
+    100% {
+      opacity: 1;
+      transform: rotate(360deg);
+    }
+  }
+
+  @keyframes fromBottom {
+    0% {
+      opacity: 0;
+      transform: translateY(500px);
+    }
+
+    100% {
+      opacity: 1;
+      transform: rotate(360deg);
+    }
   }
   .header__ice-cream {
     display: none;
@@ -74,7 +105,9 @@
     position: absolute;
     top: 108px;
     right: 450px;
+    animation: fromBottom 4s 0.5s;
   }
+
   .header__girls-photo {
     display: none;
   }
