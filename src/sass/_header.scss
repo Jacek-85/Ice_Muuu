@@ -666,6 +666,38 @@
     font-weight: 400;
     font-size: 36px;
   }
+  .header__btn-buy {
+    position: absolute;
+    top: 38px;
+    right: 34px;
+    width: 160px;
+    height: 44px;
+    background-color: white;
+    color: #d41443;
+    font-family: DM sans;
+    border: none;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.31;
+    border-radius: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    cursor: pointer;
+    z-index: 4;
+  }
+  .header__btn-buy:hover {
+    background-color: #ecebeb;
+  }
+
+  .header__btn-buy-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 12px;
+    margin-top: 3px;
+  }
 
   .header__btn-buy-tablet {
     position: absolute;
@@ -702,10 +734,11 @@
     width: 250px;
     padding-top: 60px;
     padding-bottom: 100%;
-    background-color: #e17992;
-    z-index: 4;
+    background-color: var(--pink_4);
+    z-index: 5;
     position: fixed;
     top: 0;
+    // left: 0;
     right: 0;
     display: flex;
     flex-direction: column;
@@ -804,11 +837,12 @@
     width: 250px;
     padding-top: 60px;
     padding-bottom: 171px;
-    background-color: #e17992;
-    z-index: 4;
+    background-color: var(--pink_4);
+    z-index: 5;
     position: fixed;
     top: 0;
-    left: 0;
+    // left: 0;
+    right: 0;
     display: flex;
     flex-direction: column;
   }
