@@ -10,10 +10,11 @@
 }
 
 // MAIN STYLES
-
-.h-i-m {
+.container__h-i-m {
   background-color: #fff5f6;
-  width: 100%;
+}
+.h-i-m {
+  max-width: 320px;
   height: 100%;
   position: relative;
 }
@@ -63,8 +64,9 @@
   font-size: 12px;
   line-height: 19.44px;
   color: #000000;
-  padding-left: 16vw;
-  padding-right: 16vw;
+  padding-left: 50px;
+  padding-right: 50px;
+
   z-index: 5;
   font-family: 'DM Sans', sans-serif;
 }
@@ -95,7 +97,7 @@
   font-weight: 700;
   font-size: 14px;
   text-align: center;
-  margin-left: 16vw;
+  margin-left: 50px;
   margin-top: 17px;
   margin-bottom: 20px;
   border-radius: 22px;
@@ -127,6 +129,10 @@
 //  TABLET ! ! ! ! ! ! ! !
 
 @media screen and (min-width: 768px) {
+  .h-i-m {
+    max-width: 768px;
+  }
+
   .h-i-m__milk-picture-desktop {
     display: none;
   }
@@ -182,6 +188,9 @@
 // DESKTOP ! ! ! ! !! !
 
 @media screen and (min-width: 1280px) {
+  .h-i-m {
+    max-width: 1280px;
+  }
   .d-tablet {
     gap: 74px;
     position: relative;
