@@ -1,14 +1,26 @@
 .contact {
-  background-image: linear-gradient(to bottom, #fff 5%, #fff5f6 0%);
+  background-image: linear-gradient(
+    to bottom,
+    var(--white) 5%,
+    var(--pink_1) 0%
+  );
   padding-bottom: 100px;
   position: relative;
 
   @media (min-width: 768px) {
-    background-image: linear-gradient(to bottom, #fff 10%, #fff5f6 10%);
+    background-image: linear-gradient(
+      to bottom,
+      var(--white) 10%,
+      var(--pink_1) 10%
+    );
   }
 
   @media (min-width: 1280px) {
-    background-image: linear-gradient(to bottom, #fff 11%, #fff5f6 0%);
+    background-image: linear-gradient(
+      to bottom,
+      var(--white) 11%,
+      var(--pink_1) 0%
+    );
   }
 
   &__header {
@@ -16,7 +28,7 @@
   }
 
   &__line {
-    border-bottom: 1px solid #e1e1e1;
+    border-bottom: 1px solid var(--grey_3);
   }
 
   &__wrapper {
@@ -42,7 +54,7 @@
   &__item {
     width: 220px;
     height: 427px;
-    background: #ffffff;
+    background: var(--white);
     box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
     border-radius: 24px;
     padding: 45px 20px;
@@ -72,17 +84,17 @@
   &__ribbon-bg-cafe {
     width: 80px;
     height: 16px;
-    background: #f0d1a5;
+    background: var(--coffee);
     border-radius: 4px;
     text-transform: uppercase;
-    color: #ffffff;
+    color: var(--white);
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 500;
     font-size: 12px;
     line-height: 186%;
     letter-spacing: 0.04em;
-    color: #ffffff;
+    color: var(--white);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -97,17 +109,17 @@
   &__ribbon-bg-foodtrack {
     width: 130px;
     height: 16px;
-    background: #c2e297;
+    background: var(--pistachio);
     border-radius: 4px;
     text-transform: uppercase;
-    color: #ffffff;
+    color: var(--white);
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 500;
     font-size: 12px;
     line-height: 186%;
     letter-spacing: 0.04em;
-    color: #ffffff;
+    color: var(--white);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -126,7 +138,7 @@
     font-size: 12px;
     line-height: 186%;
     letter-spacing: 0.04em;
-    color: #000;
+    color: var(--black);
     margin-bottom: 10px;
 
     @media (min-width: 768px) {
@@ -146,7 +158,7 @@
     line-height: 12px;
     margin-bottom: 60px;
     line-height: 18px;
-    color: #907e82;
+    color: var(--grey_1);
     margin-bottom: 25px;
 
     @media (min-width: 768px) {
@@ -186,7 +198,7 @@
     font-weight: 500;
     font-size: 12px;
     line-height: 186%;
-    color: #000;
+    color: var(--black);
 
     @media (min-width: 768px) {
       font-size: 14px;
@@ -203,7 +215,7 @@
     font-weight: 500;
     font-size: 12px;
     line-height: 186%;
-    color: #ffa5ba;
+    color: var(--pink_3);
 
     @media (min-width: 768px) {
       font-size: 14px;
@@ -231,10 +243,10 @@
   &__buttons-pink {
     width: 198px;
     height: 44px;
-    background: #d41342;
+    background: var(--pink_5);
     border-radius: 22px;
     cursor: pointer;
-    color: #fff;
+    color: var(--white);
     font-size: 16px;
     font-weight: 700;
     border: none;
@@ -243,24 +255,24 @@
     transition-property: all;
 
     &:hover {
-      background: #c7133e;
+      background: var(--red_1);
     }
   }
 
   &__buttons-ico-white {
     width: 8px;
     height: 10px;
-    stroke: #fff;
+    stroke: var(--white);
     margin-left: 14px;
   }
 
   &__buttons-white {
     width: 198px;
     height: 44px;
-    background: #fff;
+    background: var(--white);
     border-radius: 22px;
     cursor: pointer;
-    color: #d41443;
+    color: var(--pink_5);
     font-size: 16px;
     font-weight: 700;
     border: none;
@@ -269,14 +281,14 @@
     transition-property: all;
 
     &:hover {
-      background: #ecebeb;
+      background: var(--hover);
     }
   }
 
   &__buttons-ico-pink {
     width: 8px;
     height: 10px;
-    stroke: #d41342;
+    stroke: var(--red_2);
     margin-left: 14px;
   }
 
@@ -286,7 +298,7 @@
     font-weight: 500;
     font-size: 12px;
     line-height: 18px;
-    color: #907e82;
+    color: var(--grey_1);
     margin-top: 25px;
 
     @media (min-width: 768px) {

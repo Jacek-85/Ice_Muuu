@@ -11,7 +11,7 @@
 
 // MAIN STYLES
 .container__h-i-m {
-  background-color: #fff5f6;
+  background-color: var(--pink_1);
 }
 .h-i-m {
   max-width: 320px;
@@ -26,7 +26,7 @@
 }
 
 .h-i-m__title {
-  color: #ffa5ba;
+  color: var(--pink_1);
   font-weight: 400;
   font-size: 18px;
   line-height: 20.61px;
@@ -42,7 +42,7 @@
   letter-spacing: 0.04rem;
   text-align: center;
   padding-top: 15px;
-  color: #d41443;
+  color: var(--pink_5);
   font-family: 'Titan One';
 }
 
@@ -63,7 +63,7 @@
   font-weight: 500;
   font-size: 12px;
   line-height: 19.44px;
-  color: #000000;
+  color: var(--black);
   padding-left: 50px;
   padding-right: 50px;
 
@@ -73,7 +73,7 @@
 
 .h-i-m__paragraph--second {
   padding-top: 47px;
-  color: #907e82;
+  color: var(--grey_1);
   z-index: 5;
   font-family: 'DM Sans', sans-serif;
 }
@@ -92,8 +92,8 @@
 .h-i-m__button {
   width: 176px;
   height: 44px;
-  background-color: #ffffff;
-  color: #d41443;
+  background-color: var(--white);
+  color: var(--pink_5);
   font-weight: 700;
   font-size: 14px;
   text-align: center;
@@ -118,12 +118,12 @@
 .h-i-m__button-svg {
   width: 8px;
   height: 10px;
-  fill: #d41443;
-  color: #d41443;
+  fill: var(--pink_5);
+  color: var(--pink_5);
 }
 
 .h-i-m__button:hover {
-  background-color: #ecebeb;
+  background-color: var(--hover);
 }
 
 //  TABLET ! ! ! ! ! ! ! !
