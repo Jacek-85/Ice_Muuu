@@ -1,0 +1,332 @@
+<header class="header">
+  <div class="container__header">
+    <nav>
+      <div class="header__navigation">
+        <div class="header__navigation-desktop">
+          <div class="header__logo">
+            <img
+              id="home"
+              class="header__logo-img"
+              src="./images/Logo-and-brand.png"
+              alt="logo i nazwa firmy"
+              width="199"
+              height="50"
+            />
+          </div>
+          <ul class="header__desktop-list">
+            <li class="header__desktop-item">
+              <a class="header__desktop-link" href="#home">Home</a>
+            </li>
+            <li class="header__desktop-item">
+              <a class="header__desktop-link" href="#about">About us</a>
+            </li>
+            <li class="header__desktop-item">
+              <a class="header__desktop-link" href="#how">How it's made?</a>
+            </li>
+            <li class="header__desktop-item">
+              <a class="header__desktop-link" href="#products">Our products</a>
+            </li>
+            <li class="header__desktop-item">
+              <a class="header__desktop-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+          <button type="submit" class="header__btn-buy" data-modal-open>
+            Buy now
+            <svg class="header__btn-buy-icon" width="8" height="8">
+              <use href="./images/icons.svg#icon-arrow-red"></use>
+            </svg>
+          </button>
+        </div>
+        <div class="header__navigation-hamburger">
+          <button type="button" class="header__mobile-btn">
+            <svg class="header__navigation-icon" width="20" height="20">
+              <use href="./images/icons.svg#icon-burger"></use>
+            </svg>
+          </button>
+
+          <div class="header__menu-mobile d-none">
+            <button type="submit" class="header__mobile-menu-btn">
+              Buy now
+              <svg class="header__menu-icon" width="8" height="8">
+                <use href="./images/icons.svg#icon-arrow-red"></use>
+              </svg>
+            </button>
+
+            <ul class="header__mobile-list">
+              <li class="header__list-item">
+                <a class="header__link" href="#home">Home</a>
+              </li>
+              <li class="header__list-item">
+                <a class="header__link" href="#about">About us</a>
+              </li>
+              <li class="header__list-item">
+                <a class="header__link" href="#how">How it's made?</a>
+              </li>
+              <li class="header__list-item">
+                <a class="header__link" href="#products">Our products</a>
+              </li>
+              <li class="header__list-item">
+                <a class="header__link" href="#contact">Contact</a>
+              </li>
+            </ul>
+
+            <button type="button" class="header__exit-btn">
+              <svg width="13.5" height="14" class="header__exit">
+                <use
+                  class="page-header__exit-icon"
+                  href="./images/icons.svg#icon-close"
+                ></use>
+              </svg>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+          <form name="modal__form">
+            <button class="modal__button-exit" data-modal-close>
+              <svg class="modal__button-icon" width="20" height="20">
+                <use href="./images/icons.svg#icon-close"></use>
+              </svg>
+            </button>
+            <button class="modal__button-exit-tablet" data-modal-close-tablet>
+              <svg class="modal__button-icon" width="20" height="20">
+                <use href="./images/icons.svg#icon-close"></use>
+              </svg>
+            </button>
+            <fieldset class="modal__field">
+              <label class="modal__label" for="username"> Name</label>
+
+              <input
+                class="modal__input"
+                type="text"
+                name="username"
+                id="username"
+              />
+            </fieldset>
+            <fieldset class="modal__field">
+              <label class="modal__label-telephone" for="userphone">
+                Telephon</label
+              >
+
+              <input
+                class="modal__input"
+                type="tel"
+                name="userphone"
+                id="userphone"
+              />
+            </fieldset>
+            <fieldset class="modal__field">
+              <label class="modal__label" for="usermail"> Email</label>
+
+              <input
+                class="modal__input"
+                type="email"
+                name="usermail"
+                id="usermail"
+              />
+            </fieldset>
+
+            <label class="modal__label-textarea" for="commentary">
+              Commentary</label
+            >
+            <textarea
+              class="modal__textarea"
+              name="commentary"
+              placeholder="Wprowadź tekst"
+            ></textarea>
+
+            <input
+              type="checkbox"
+              name="legal"
+              id="legal"
+              class="modal__checkbox-input"
+              value="legal"
+              autocomplete="off"
+            />
+
+            <label class="modal__label-checkbox" for="legal">
+              <div class="modal__checkbox"></div>
+              Oświadczam iż akceptuję&nbsp
+              <a class="modal__legal-link" href="#">Regulamin</a> &nbspi&nbsp
+              <a class="modal__legal-link" href="#">Politykę Prywatności</a>
+            </label>
+
+            <button class="modal__btn-end" type="submit">Send</button>
+
+            <img
+              class="modal__girl"
+              src="./images/girl-with-ice.png"
+              alt="dziewczyna jedząca loda"
+              width="160"
+              height="133"
+            />
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <div class="header__logo-mobile">
+      <img
+        class="header__logo-img-mobile"
+        src="./images/Logo-and-brand.png"
+        alt="logo i nazwa firmy"
+        width="199"
+        height="50"
+      />
+    </div>
+    <div class="header__content">
+      <h1 class="header__head header__head-first">
+        ice cream made with
+        <span class="header__head-second">passion</span>
+      </h1>
+      <div class="header__paragraph">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod tempor incididunt ut labore et
+        </p>
+      </div>
+      <button
+        type="submit"
+        class="header__btn-buy-tablet"
+        data-modal-open-tablet
+      >
+        Buy now
+        <svg class="header__btn-buy-icon" width="8" height="8">
+          <use href="./images/icons.svg#icon-arrow-red"></use>
+        </svg>
+      </button>
+    </div>
+    <div class="header__images">
+      <img
+        class="header__elipse"
+        src="./images/Ellipse-head-mobile.png"
+        alt="ozobne zdjęcie tła"
+        width="284"
+        height="344"
+      />
+      <img
+        class="header__ellipse-tablet"
+        src="./images/ellipse-head-tablet.png"
+        alt="ozdobne zdjęcie tła"
+        width="324"
+        height="322"
+      />
+      <img
+        class="header__ellipse-desktop"
+        src="./images/Ellipse-desktop.png"
+        alt="ozdobne zdjęcie tła"
+        width="538"
+        height="538"
+      />
+
+      <img
+        class="header__ice-cream"
+        src="./images/Great-Ice.png"
+        alt="zdjęcie apetycznego loda z szescioma kulkami w rożku"
+        width="171"
+        height="410"
+      />
+      <img
+        class="header__ice-cream-tablet"
+        src="./images/ice-cream-tablet.png"
+        alt="zdjęcie apetycznego loda z szescioma kulkami w rożku"
+        width="143"
+        height="336"
+      />
+      <img
+        class="header__ice-cream-desktop"
+        src="./images/ice-cream-desktop.png"
+        alt="zdjęcie apetycznego loda z szescioma kulkami w rożku"
+        width="236"
+        height="557"
+      />
+      <img
+        class="header__girls-photo"
+        src="./images/girl-with-ice.png"
+        alt="dziewczyna jedząca loda"
+        width="168"
+        height="133"
+      />
+      <img
+        class="header__girl-desktop"
+        src="./images/girl-with-ice-desktop.png"
+        alt="dziewczyna jedząca loda"
+        width="293"
+        height="232"
+      />
+
+      <img
+        class="header__group-22"
+        src="./images/group-22.png"
+        alt="ilość kawiarni z naszymi lodami"
+        width="43"
+        height="44"
+      />
+      <img
+        class="header__group-22-desktop"
+        src="./images/Group-desktop.png"
+        alt="ilość kawiarni z naszymi lodami"
+        width="72"
+        height="77"
+      />
+      <img
+        class="header__group-23"
+        src="./images/group-23.png"
+        alt="ilość food tracków z naszymi lodami"
+        width="51"
+        height="43"
+      />
+      <img
+        class="header__group-23-desktop"
+        src="./images/Group-23-desktop.png"
+        alt="ilość food tracków z naszymi lodami"
+        width="92"
+        height="76"
+      />
+      <img
+        class="header__bootle-photo"
+        src="./images/bootle-of-milk.png"
+        alt="butelka z mlekiem"
+        width="124"
+        height="126"
+      />
+
+      <img
+        class="header__bootle-photo-desktop"
+        src="./images/bootle-of-milk.png"
+        alt="butelka z mlekiem"
+        width="188"
+        height="191"
+      />
+
+      <img
+        class="arrow-right"
+        src="./images/arrow-right.png"
+        alt="strzałka"
+        width="18"
+        height="18"
+      />
+      <img
+        class="arrow-right-desktop"
+        src="./images/arrow-right-desktop.png"
+        alt="strzałka"
+        width="26"
+        height="26"
+      />
+      <div class="header__buttons">
+        <a href="#products"
+          ><button class="header__button-products" type="submit">
+            Products
+          </button></a
+        >
+
+        <a href="#how"
+          ><button class="header__button-how-its-made" type="submit">
+            How it's made?
+          </button></a
+        >
+      </div>
+    </div>
+  </div>
+</header>
