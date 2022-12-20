@@ -5,7 +5,13 @@
     width: 100%;
     padding-left: 20px;
     align-items: center;
-    
+    padding-bottom: 145px;
+    @media screen and (min-width: 768px) {
+        padding-bottom: 246px;
+    }
+    @media screen and (min-width: 1280px) {
+        padding-bottom: 310px;
+    }
 }
 
 .about2_tittle {
