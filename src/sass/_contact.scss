@@ -1,6 +1,5 @@
 .contact {
   background-image: linear-gradient(to bottom, #fff 5%, #fff5f6 0%);
-  // padding-top: 200px;
   padding-bottom: 100px;
   position: relative;
 
@@ -24,8 +23,8 @@
     display: flex;
     flex-direction: column;
     row-gap: 20px;
-    // padding: 0 50px;
-    // background-color: #fff5f6;
+    position: relative;
+    z-index: 1;
 
     @media (min-width: 768px) {
       flex-direction: row;
@@ -188,7 +187,6 @@
     font-size: 12px;
     line-height: 186%;
     color: #000;
-    // margin-bottom: -2px;
 
     @media (min-width: 768px) {
       font-size: 14px;
@@ -253,6 +251,7 @@
     width: 8px;
     height: 10px;
     stroke: #fff;
+    margin-left: 14px;
   }
 
   &__buttons-white {
@@ -278,6 +277,7 @@
     width: 8px;
     height: 10px;
     stroke: #d41342;
+    margin-left: 14px;
   }
 
   &__details {
