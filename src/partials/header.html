@@ -5,6 +5,7 @@
         <div class="header__navigation-desktop">
           <div class="header__logo">
             <img
+              id="home"
               class="header__logo-img"
               src="./images/Logo-and-brand.png"
               alt="logo i nazwa firmy"
@@ -14,19 +15,19 @@
           </div>
           <ul class="header__desktop-list">
             <li class="header__desktop-item">
-              <a class="header__desktop-link" href="#">Home</a>
+              <a class="header__desktop-link" href="#home">Home</a>
             </li>
             <li class="header__desktop-item">
-              <a class="header__desktop-link" href="#">About us</a>
+              <a class="header__desktop-link" href="#about">About us</a>
             </li>
             <li class="header__desktop-item">
-              <a class="header__desktop-link" href="#">How it's made?</a>
+              <a class="header__desktop-link" href="#how">How it's made?</a>
             </li>
             <li class="header__desktop-item">
-              <a class="header__desktop-link" href="#">Our products</a>
+              <a class="header__desktop-link" href="#products">Our products</a>
             </li>
             <li class="header__desktop-item">
-              <a class="header__desktop-link" href="#">Contact</a>
+              <a class="header__desktop-link" href="#contact">Contact</a>
             </li>
           </ul>
           <button type="submit" class="header__btn-buy" data-modal-open>
@@ -53,19 +54,19 @@
 
             <ul class="header__mobile-list">
               <li class="header__list-item">
-                <a class="header__link" href="#">Home</a>
+                <a class="header__link" href="#home">Home</a>
               </li>
               <li class="header__list-item">
-                <a class="header__link" href="#">About us</a>
+                <a class="header__link" href="#about">About us</a>
               </li>
               <li class="header__list-item">
-                <a class="header__link" href="#">How it's made?</a>
+                <a class="header__link" href="#how">How it's made?</a>
               </li>
               <li class="header__list-item">
-                <a class="header__link" href="#">Our products</a>
+                <a class="header__link" href="#products">Our products</a>
               </li>
               <li class="header__list-item">
-                <a class="header__link" href="#">Contact</a>
+                <a class="header__link" href="#contact">Contact</a>
               </li>
             </ul>
 
@@ -314,11 +315,17 @@
         height="26"
       />
       <div class="header__buttons">
-        <button class="header__button-products" type="submit">Product</button>
+        <a href="#products"
+          ><button class="header__button-products" type="submit">
+            Products
+          </button></a
+        >
 
-        <button class="header__button-how-its-made" type="submit">
-          How it's made?
-        </button>
+        <a href="#how"
+          ><button class="header__button-how-its-made" type="submit">
+            How it's made?
+          </button></a
+        >
       </div>
     </div>
   </div>
