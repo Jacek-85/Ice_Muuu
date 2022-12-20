@@ -29,7 +29,7 @@
               <a class="header__desktop-link" href="#">Contact</a>
             </li>
           </ul>
-          <button type="submit" class="header__btn-buy">
+          <button type="submit" class="header__btn-buy" data-modal-open>
             Buy now
             <svg class="header__btn-buy-icon" width="8" height="8">
               <use href="./images/icons.svg#icon-arrow-red"></use>
@@ -37,13 +37,13 @@
           </button>
         </div>
         <div class="header__navigation-hamburger">
-          <button type="button" class="header__mobile-btn" data-menu-open>
+          <button type="button" class="header__mobile-btn">
             <svg class="header__navigation-icon" width="20" height="20">
               <use href="./images/icons.svg#icon-burger"></use>
             </svg>
           </button>
 
-          <div class="header__menu-mobile d-none" data-menu>
+          <div class="header__menu-mobile d-none">
             <button type="submit" class="header__mobile-menu-btn">
               Buy now
               <svg class="header__menu-icon" width="8" height="8">
@@ -69,7 +69,7 @@
               </li>
             </ul>
 
-            <button type="button" class="header__exit-btn" data-menu-close>
+            <button type="button" class="header__exit-btn">
               <svg width="13.5" height="14" class="header__exit">
                 <use
                   class="page-header__exit-icon"
@@ -78,6 +78,89 @@
               </svg>
             </button>
           </div>
+        </div>
+      </div>
+      <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+          <form name="modal__form">
+            <button class="modal__button-exit" data-modal-close>
+              <svg class="modal__button-icon" width="20" height="20">
+                <use href="./images/icons.svg#icon-close"></use>
+              </svg>
+            </button>
+            <button class="modal__button-exit-tablet" data-modal-close-tablet>
+              <svg class="modal__button-icon" width="20" height="20">
+                <use href="./images/icons.svg#icon-close"></use>
+              </svg>
+            </button>
+            <fieldset class="modal__field">
+              <label class="modal__label" for="username"> Name</label>
+
+              <input
+                class="modal__input"
+                type="text"
+                name="username"
+                id="username"
+              />
+            </fieldset>
+            <fieldset class="modal__field">
+              <label class="modal__label-telephone" for="userphone">
+                Telephon</label
+              >
+
+              <input
+                class="modal__input"
+                type="tel"
+                name="userphone"
+                id="userphone"
+              />
+            </fieldset>
+            <fieldset class="modal__field">
+              <label class="modal__label" for="usermail"> Email</label>
+
+              <input
+                class="modal__input"
+                type="email"
+                name="usermail"
+                id="usermail"
+              />
+            </fieldset>
+
+            <label class="modal__label-textarea" for="commentary">
+              Commentary</label
+            >
+            <textarea
+              class="modal__textarea"
+              name="commentary"
+              placeholder="Wprowadź tekst"
+            ></textarea>
+
+            <input
+              type="checkbox"
+              name="legal"
+              id="legal"
+              class="modal__checkbox-input"
+              value="legal"
+              autocomplete="off"
+            />
+
+            <label class="modal__label-checkbox" for="legal">
+              <div class="modal__checkbox"></div>
+              Oświadczam iż akceptuję&nbsp
+              <a class="modal__legal-link" href="#">Regulamin</a> &nbspi&nbsp
+              <a class="modal__legal-link" href="#">Politykę Prywatności</a>
+            </label>
+
+            <button class="modal__btn-end" type="submit">Send</button>
+
+            <img
+              class="modal__girl"
+              src="./images/girl-with-ice.png"
+              alt="dziewczyna jedząca loda"
+              width="160"
+              height="133"
+            />
+          </form>
         </div>
       </div>
     </nav>
@@ -102,7 +185,11 @@
           eiusmod tempor incididunt ut labore et
         </p>
       </div>
-      <button type="submit" class="header__btn-buy-tablet">
+      <button
+        type="submit"
+        class="header__btn-buy-tablet"
+        data-modal-open-tablet
+      >
         Buy now
         <svg class="header__btn-buy-icon" width="8" height="8">
           <use href="./images/icons.svg#icon-arrow-red"></use>
