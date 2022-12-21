@@ -37,6 +37,7 @@
   );
   position: relative;
   z-index: 1;
+  font-weight: 500;
 }
 .customer__comment-comma::before {
   content: url('../images/commas.svg');
@@ -121,7 +122,7 @@
     top: 35px;
   }
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1280px) {
   .customer-inner {
     padding-top: 123px;
     padding-bottom: 132px;
@@ -168,7 +169,7 @@
     width: 32px;
     height: 4px;
     left: 342px;
-    top: 105px;
+    top: 90px;
   }
   .customer__tittle-home:last-child::after {
     content: url('../images/hrdots.svg');
@@ -176,6 +177,6 @@
     width: 73px;
     height: 12px;
     left: 30px;
-    top: 37px;
+    top: 45px;
   }
 }
