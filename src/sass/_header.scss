@@ -124,20 +124,20 @@
     position: absolute;
     top: 156px;
     right: 97px;
-    animation: fromRight 4s 0.5s;
+    // animation: fromRight 4s 0.5s;
   }
 
-  @keyframes fromRight {
-    0% {
-      opacity: 0;
-      transform: translateX(500px);
-    }
+  // @keyframes fromRight {
+  //   0% {
+  //     opacity: 0;
+  //     transform: translateX(500px);
+  //   }
 
-    100% {
-      opacity: 1;
-      transform: rotate(360deg);
-    }
-  }
+  //   100% {
+  //     opacity: 1;
+  //     transform: rotate(360deg);
+  //   }
+  // }
   .header__group-23 {
     display: none;
   }
@@ -145,18 +145,18 @@
     position: absolute;
     top: 248px;
     right: 97px;
-    animation: fromLeft 4s 0.5s;
+    // animation: fromLeft 4s 0.5s;
   }
-  @keyframes fromLeft {
-    0% {
-      opacity: 0;
-      transform: translateX(-500px);
-    }
+  // @keyframes fromLeft {
+  //   0% {
+  //     opacity: 0;
+  //     transform: translateX(-500px);
+  //   }
 
-    100% {
-      opacity: 1;
-    }
-  }
+  //   100% {
+  //     opacity: 1;
+  //   }
+  // }
   .header__bootle-photo {
     display: none;
   }
