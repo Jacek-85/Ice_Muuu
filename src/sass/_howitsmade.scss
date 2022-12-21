@@ -17,6 +17,7 @@
   max-width: 320px;
   height: 100%;
   position: relative;
+  z-index: 1;
 }
 
 .h-i-m__milk-picture-desktop {
@@ -69,7 +70,7 @@
   padding-left: 50px;
   padding-right: 50px;
 
-  z-index: 5;
+  z-index: 1;
   font-family: 'DM Sans', sans-serif;
 }
 
