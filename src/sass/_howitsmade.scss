@@ -26,7 +26,7 @@
 }
 
 .h-i-m__title {
-  color: var(--pink_1);
+  color: var(--pink_3);
   font-weight: 400;
   font-size: 18px;
   line-height: 20.61px;
@@ -44,6 +44,8 @@
   padding-top: 15px;
   color: var(--pink_5);
   font-family: 'Titan One';
+  max-width: 200px;
+  margin: 0 auto;
 }
 
 .d-tablet {
@@ -183,6 +185,7 @@
     font-size: 48px;
     line-height: 55px;
     letter-spacing: 0.04rem;
+    max-width: fit-content;
   }
 }
 // DESKTOP ! ! ! ! !! !
@@ -220,6 +223,7 @@
     font-size: 58px;
     line-height: 67px;
     letter-spacing: 0.06rem;
+    max-width: fit-content;
   }
   .h-i-m__milk-picture-desktop {
     display: block;
