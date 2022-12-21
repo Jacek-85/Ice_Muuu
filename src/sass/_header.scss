@@ -48,7 +48,7 @@
     z-index: 1;
   }
   .header__desktop-link:hover {
-    color: #d41443;
+    color: var(--pink_5);
     text-decoration: none;
   }
   .header__mobile-btn {
@@ -196,7 +196,7 @@
     top: 333px;
     left: 115px;
     color: white;
-    background-color: #d41443;
+    background-color: var(--pink_5);
     border-radius: 20px;
     width: 102px;
     height: 40px;
@@ -209,7 +209,7 @@
   }
 
   .header__button-products:hover {
-    background-color: #c7133e;
+    background-color: var(--red_1);
   }
   .header__button-how-its-made {
     display: flex;
@@ -218,7 +218,7 @@
     position: absolute;
     top: 333px;
     left: 234px;
-    color: #d41443;
+    color: var(--pink_5);
     background-color: white;
     border-radius: 20px;
     width: 138px;
@@ -232,7 +232,7 @@
     cursor: pointer;
   }
   .header__button-how-its-made:hover {
-    background-color: #ecebeb;
+    background-color: var(--hover);
   }
   .header__head {
     position: absolute;
@@ -254,7 +254,7 @@
     font-size: 38px;
   }
   .header__head-second {
-    color: #d41443;
+    color: var(--pink_5);
     font-weight: 400;
     font-size: 58px;
   }
@@ -262,7 +262,7 @@
     width: 159px;
     height: 44px;
     background-color: white;
-    color: #d41443;
+    color: var(--pink_5);
     font-family: DM sans;
     border: none;
     font-weight: 700;
@@ -277,7 +277,7 @@
     z-index: 3;
   }
   .header__btn-buy:hover {
-    background-color: #ecebeb;
+    background-color: var(--hover);
   }
 
   .header__btn-buy-icon {
@@ -314,7 +314,7 @@
     height: 550px;
     margin: auto;
 
-    background-color: #c7133e;
+    background-color: var(--red_1);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
       0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 5px;
@@ -390,7 +390,7 @@
     font-weight: 400;
     font-size: 12px;
     line-height: 1.16;
-    color: #e17992;
+    color: var(--pink_4);
     padding: 28px 40px 0px 40px;
   }
   .modal__textarea {
@@ -433,7 +433,7 @@
   }
 
   .modal__checkbox-input:checked + .modal__label-checkbox > .modal__checkbox {
-    background-color: #e17992;
+    background-color: var(--pink_4);
   }
 
   .modal__legal-link {
@@ -445,7 +445,7 @@
     align-items: center;
     justify-content: center;
     margin: 30px auto 40px auto;
-    color: #c7133e;
+    color: var(--red_1);
     width: 120px;
     height: 44px;
     background-color: white;
@@ -458,11 +458,11 @@
   }
 
   .modal__btn-end:hover {
-    background-color: #ecebeb;
+    background-color: var(--hover);
   }
 
   .modal__field:focus {
-    color: #d41443;
+    color: var(--pink_5);
   }
   .modal__girl {
     position: absolute;
@@ -512,7 +512,7 @@
 //     z-index: 1;
 //   }
 //   .header__desktop-link:hover {
-//     color: #d41443;
+//     color: var(--pink_5);
 //   }
 //   .header__mobile-btn {
 //     display: none;
@@ -602,7 +602,7 @@
 //     top: 333px;
 //     left: 115px;
 //     color: white;
-//     background-color: #d41443;
+//     background-color: var(--pink_5);
 //     border-radius: 20px;
 //     width: 102px;
 //     height: 40px;
@@ -615,7 +615,7 @@
 //   }
 
 //   .header__button-products:hover {
-//     background-color: #c7133e;
+//     background-color: var(--red_1);
 //   }
 //   .header__button-how-its-made {
 //     display: flex;
@@ -624,7 +624,7 @@
 //     position: absolute;
 //     top: 333px;
 //     left: 234px;
-//     color: #d41443;
+//     color: var(--pink_5);
 //     background-color: white;
 //     border-radius: 20px;
 //     width: 138px;
@@ -638,7 +638,7 @@
 //     cursor: pointer;
 //   }
 //   .header__button-how-its-made:hover {
-//     background-color: #ecebeb;
+//     background-color: var(--hover);
 //   }
 //   .header__head {
 //     position: absolute;
@@ -660,7 +660,7 @@
 //     font-size: 38px;
 //   }
 //   .header__head-second {
-//     color: #d41443;
+//     color: var(--pink_5);
 //     font-weight: 400;
 //     font-size: 58px;
 //   }
@@ -671,7 +671,7 @@
 //     width: 159px;
 //     height: 44px;
 //     background-color: white;
-//     color: #d41443;
+//     color: var(--pink_5);
 //     font-family: DM sans;
 //     border: none;
 //     font-weight: 700;
@@ -685,7 +685,7 @@
 //     cursor: pointer;
 //   }
 //   .header__btn-buy:hover {
-//     background-color: #ecebeb;
+//     background-color: var(--hover);
 //   }
 
 //   .header__btn-buy-icon {
@@ -805,7 +805,7 @@
     font-size: 8px;
     line-height: 1.5;
 
-    color: #ffffff;
+    color: var(--white);
     position: absolute;
     left: 154px;
     bottom: 59px;
@@ -817,7 +817,7 @@
     width: 160px;
     height: 44px;
     background-color: white;
-    color: #d41443;
+    color: var(--pink_5);
     font-family: DM sans;
     border: none;
     font-weight: 700;
@@ -832,7 +832,7 @@
     z-index: 3;
   }
   .header__btn-buy-tablet:hover {
-    background-color: #ecebeb;
+    background-color: var(--hover);
   }
 
   .header__btn-buy-icon {
@@ -850,7 +850,7 @@
     top: 202px;
     left: 34px;
     color: white;
-    background-color: #d41443;
+    background-color: var(--pink_5);
     border-radius: 20px;
     width: 61px;
     height: 24px;
@@ -863,7 +863,7 @@
   }
 
   .header__button-products:hover {
-    background-color: #c7133e;
+    background-color: var(--red_1);
   }
   .header__button-how-its-made {
     display: flex;
@@ -872,7 +872,7 @@
     position: absolute;
     top: 202px;
     left: 104.4px;
-    color: #d41443;
+    color: var(--pink_5);
     background-color: white;
     border-radius: 20px;
     width: 82.8px;
@@ -886,7 +886,7 @@
     cursor: pointer;
   }
   .header__button-how-its-made:hover {
-    background-color: #ecebeb;
+    background-color: var(--hover);
   }
   .header__head {
     width: 162px;
@@ -906,7 +906,7 @@
     font-size: 22px;
   }
   .header__head-second {
-    color: #d41443;
+    color: var(--pink_5);
     font-weight: 400;
     font-size: 36px;
   }
@@ -917,7 +917,7 @@
     width: 160px;
     height: 44px;
     background-color: white;
-    color: #d41443;
+    color: var(--pink_5);
     font-family: DM sans;
     border: none;
     font-weight: 700;
@@ -932,7 +932,7 @@
     z-index: 4;
   }
   .header__btn-buy:hover {
-    background-color: #ecebeb;
+    background-color: var(--hover);
   }
 
   .header__btn-buy-icon {
@@ -950,7 +950,7 @@
     width: 160px;
     height: 44px;
     background-color: white;
-    color: #d41443;
+    color: var(--pink_5);
     font-family: DM sans;
     border: none;
     font-weight: 700;
@@ -964,7 +964,7 @@
     cursor: pointer;
   }
   .header__btn-buy:hover {
-    background-color: #ecebeb;
+    background-color: var(--hover);
   }
 
   .header__btn-buy-icon {
@@ -1014,13 +1014,13 @@
   }
 
   .header__link:hover {
-    color: #d41443;
+    color: var(--pink_5);
   }
   .header__exit-btn {
     position: absolute;
     top: 23px;
     left: 208px;
-    background-color: #e17992;
+    background-color: var(--pink_4);
     border: none;
     cursor: pointer;
   }
@@ -1029,7 +1029,7 @@
     width: 186px;
     height: 44px;
     background-color: white;
-    color: #d41443;
+    color: var(--pink_5);
     font-family: DM sans;
     border: none;
     font-weight: 700;
@@ -1074,7 +1074,7 @@
     height: 550px;
     margin: auto;
 
-    background-color: #c7133e;
+    background-color: var(--red_1);
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
       0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 5px;
@@ -1151,7 +1151,7 @@
     font-weight: 400;
     font-size: 12px;
     line-height: 1.16;
-    color: #e17992;
+    color: var(--pink_4);
     padding: 28px 40px 0px 40px;
   }
   .modal__textarea {
@@ -1210,7 +1210,7 @@
     align-items: center;
     justify-content: center;
     margin: 30px auto 40px auto;
-    color: #c7133e;
+    color: var(--red_1);
     width: 120px;
     height: 44px;
     background-color: white;
@@ -1223,11 +1223,11 @@
   }
 
   .modal__btn-end:hover {
-    background-color: #ecebeb;
+    background-color: var(--hover);
   }
 
   .modal__field:focus {
-    color: #d41443;
+    color: var(--pink_5);
   }
   .modal__girl {
     position: absolute;
@@ -1303,7 +1303,7 @@
   }
 
   .header__link:hover {
-    color: #d41443;
+    color: var(--pink_5);
   }
 
   .header__navigation-icon {
@@ -1319,7 +1319,7 @@
     width: 209px;
     height: 44px;
     background-color: white;
-    color: #d41443;
+    color: var(--pink_5);
     font-family: DM sans;
     border: none;
     font-weight: 700;
@@ -1334,7 +1334,7 @@
   }
 
   .header__mobile-menu-btn:hover {
-    background-color: #ecebeb;
+    background-color: var(--hover);
   }
 
   .header__menu-icon {
@@ -1348,7 +1348,7 @@
     position: absolute;
     top: 23px;
     left: 208px;
-    background-color: #e17992;
+    background-color: var(--pink_4);
     border: none;
     cursor: pointer;
   }
@@ -1370,7 +1370,7 @@
     font-size: 26px;
   }
   .header__head-second {
-    color: #d41443;
+    color: var(--pink_5);
     font-weight: 400;
     font-size: 48px;
   }
@@ -1402,7 +1402,7 @@
     top: 318px;
     left: 20px;
     color: white;
-    background-color: #d41443;
+    background-color: var(--pink_5);
     border-radius: 20px;
     width: 62.4px;
     height: 24px;
@@ -1415,7 +1415,7 @@
   }
 
   .header__button-products:hover {
-    background-color: #c7133e;
+    background-color: var(--red_1);
   }
 
   .header__button-how-its-made {
@@ -1425,7 +1425,7 @@
     position: absolute;
     top: 318px;
     left: 90.4px;
-    color: #d41443;
+    color: var(--pink_5);
     background-color: white;
     border-radius: 20px;
     width: 82.8px;
@@ -1439,7 +1439,7 @@
     cursor: pointer;
   }
   .header__button-how-its-made:hover {
-    background-color: #ecebeb;
+    background-color: var(--hover);
   }
 
   .header__girls-photo {

@@ -1,6 +1,10 @@
 .gallery {
   background-image: url(../images/gallery/gallery-mobilex1.png);
-  background-color: linear-gradient(to bottom, #fff5f6, #e5e5e5);
+  background-color: linear-gradient(
+    to bottom,
+    var(--pink_1),
+    var(--background)
+  );
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -45,7 +49,7 @@
 /* .gallery_img {
     width: 100%;
     height: 100%;
-    background-image: linear-gradient(to bottom, #FFF5F6 , #E5E5E5 );
+    background-image: linear-gradient(to bottom, var(--pink_1) , var(--background) );
     background-size: cover;
     
 

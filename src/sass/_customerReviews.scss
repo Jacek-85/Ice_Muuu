@@ -3,7 +3,7 @@
 }
 .customer {
   width: 100%;
-  background-color: #ffffff;
+  background-color: var(--white);
 }
 .customer-inner {
   display: flex;
@@ -19,7 +19,7 @@
   margin-bottom: 29px;
 }
 .customer__comment-inner {
-  background: #fafafa;
+  background: var(--grey_2);
   margin-bottom: 42px;
   padding: 43px 50px 26px;
   z-index: 2;
@@ -29,8 +29,12 @@
   padding: 0 15px;
   text-align: center;
   line-height: 255%;
-  color: #000000;
-  background: repeating-linear-gradient(#fafafa, #fafafa 29px, #e1e1e1 30px);
+  color: var(--black);
+  background: repeating-linear-gradient(
+    var(--grey_2),
+    var(--grey_2) 29px,
+    var(--grey_3) 30px
+  );
   position: relative;
   z-index: 1;
 }
@@ -55,7 +59,7 @@
   text-align: center;
   font-size: 14px;
   line-height: 186%;
-  color: #000000;
+  color: var(--black);
   margin-bottom: 80px;
   position: relative;
 }
@@ -85,8 +89,12 @@
     font-size: 14px;
     align-items: center;
     line-height: 216%;
-    color: #000000;
-    background: repeating-linear-gradient(#fafafa, #fafafa 28px, #e1e1e1 30px);
+    color: var(--black);
+    background: repeating-linear-gradient(
+      var(--grey_2),
+      var(--grey_2) 28px,
+      var(--grey_3) 30px
+    );
   }
   .customer__comment-comma::before {
     content: url('../images/commas.svg');
@@ -138,8 +146,12 @@
     font-size: 16px;
     align-items: center;
     line-height: 186%;
-    color: #000000;
-    background: repeating-linear-gradient(#fafafa, #fafafa 26px, #e1e1e1 28px);
+    color: var(--black);
+    background: repeating-linear-gradient(
+      var(--grey_2),
+      var(--grey_2) 26px,
+      var(--grey_3) 28px
+    );
   }
 
   .customer__comment-comma::before {
